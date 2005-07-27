@@ -1,4 +1,6 @@
+# TODO: optflags
 Summary:	scan for mDNS services
+Summary(pl):	Wyszukiwanie us³ug mDNS
 Name:		mdns-scan
 Version:	0.1
 Release:	1
@@ -15,6 +17,13 @@ the local network. It issues a mDNS PTR query to the special RR
 _services._dns-sd._udp.local for retrieving a list of all currently
 registered services on the local link.
 
+%description -l pl
+mdns-scan to narzêdzie do wyszukiwania us³ug mDNS/DNS-SD
+udostêpnionych w sieci lokalnej. Wysy³a zapytanie mDNS PTR dla
+specjalnego rekordu RR _services._dns-sd._udp.local w celu pobrania
+listy wszystkich aktualnie zarejestrowanych us³ug na lokalnym
+po³±czeniu.
+
 %prep
 %setup -q
 
@@ -23,8 +32,8 @@ registered services on the local link.
 
 %install
 rm -rf $RPM_BUILD_ROOT
-# create directories if necessary
 install -d $RPM_BUILD_ROOT%{_bindir}
+
 install mdns-scan $RPM_BUILD_ROOT%{_bindir}/mdns-scan
 
 %clean
