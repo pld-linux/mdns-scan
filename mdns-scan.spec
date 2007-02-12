@@ -1,6 +1,6 @@
 # TODO: optflags
 Summary:	scan for mDNS services
-Summary(pl):	Wyszukiwanie us³ug mDNS
+Summary(pl.UTF-8):   Wyszukiwanie usÅ‚ug mDNS
 Name:		mdns-scan
 Version:	0.1
 Release:	1
@@ -17,12 +17,12 @@ the local network. It issues a mDNS PTR query to the special RR
 _services._dns-sd._udp.local for retrieving a list of all currently
 registered services on the local link.
 
-%description -l pl
-mdns-scan to narzêdzie do wyszukiwania us³ug mDNS/DNS-SD
-udostêpnionych w sieci lokalnej. Wysy³a zapytanie mDNS PTR dla
+%description -l pl.UTF-8
+mdns-scan to narzÄ™dzie do wyszukiwania usÅ‚ug mDNS/DNS-SD
+udostÄ™pnionych w sieci lokalnej. WysyÅ‚a zapytanie mDNS PTR dla
 specjalnego rekordu RR _services._dns-sd._udp.local w celu pobrania
-listy wszystkich aktualnie zarejestrowanych us³ug na lokalnym
-po³±czeniu.
+listy wszystkich aktualnie zarejestrowanych usÅ‚ug na lokalnym
+poÅ‚Ä…czeniu.
 
 %prep
 %setup -q
