@@ -1,6 +1,6 @@
 # TODO: optflags
 Summary:	scan for mDNS services
-Summary(pl.UTF-8):   Wyszukiwanie usług mDNS
+Summary(pl.UTF-8):	Wyszukiwanie usług mDNS
 Name:		mdns-scan
 Version:	0.1
 Release:	1
