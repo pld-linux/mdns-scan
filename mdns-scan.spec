@@ -2,12 +2,12 @@
 Summary:	scan for mDNS services
 Summary(pl.UTF-8):	Wyszukiwanie usług mDNS
 Name:		mdns-scan
-Version:	0.1
+Version:	0.5
 Release:	1
 License:	GPL v2
 Group:		Networking/Utilities
 Source0:	http://0pointer.de/lennart/projects/mdns-scan/%{name}-%{version}.tar.gz
-# Source0-md5:	df727b1f56656130d254923d13508be5
+# Source0-md5:	9f036172ffe9f51c2c6e4db5bb7134df
 URL:		http://0pointer.de/lennart/projects/mdns-scan/
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
